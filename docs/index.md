@@ -1,4 +1,4 @@
-<div class="slr-hero-image">
+﻿<div class="slr-hero-image" markdown>
 
 ![SportsLabResearch](assets/branding/banner.png)
 
@@ -239,3 +239,4 @@ Every SportsLabResearch project follows a common workflow:
 **One ecosystem. One methodology. One scientific identity.**
 
 </div>
+
