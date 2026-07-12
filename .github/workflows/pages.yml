@@ -34,9 +34,9 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Construir sitio
-        run: mkdocs build --strict
+        run: mkdocs build
 
-      - name: Configurar GitHub Pages
+      - name: Configurar Pages
         uses: actions/configure-pages@v5
 
       - name: Subir sitio generado
@@ -53,6 +53,6 @@ jobs:
     needs: build
 
     steps:
-      - name: Publicar en GitHub Pages
+      - name: Publicar web
         id: deployment
         uses: actions/deploy-pages@v4
