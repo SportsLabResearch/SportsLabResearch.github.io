@@ -1,10 +1,10 @@
-site_name: SportsLabResearch
+﻿site_name: SportsLabResearch
 site_description: Research Software for Sport Science
 site_author: SportsLabResearch
-site_url: https://sportslabresearch.github.io/SportsLabResearch/
+site_url: https://sportslabresearch.github.io/
 
-repo_name: SportsLabResearch
-repo_url: https://github.com/SportsLabResearch/SportsLabResearch
+repo_name: SportsLabResearch.github.io
+repo_url: https://github.com/SportsLabResearch/SportsLabResearch.github.io
 edit_uri: ""
 
 theme:
