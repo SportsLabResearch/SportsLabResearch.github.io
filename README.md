@@ -1,49 +1,74 @@
-# SportsLabResearch
+<p align="center">
+  <img src="docs/assets/sportslabresearch-header-logo.png" alt="SportsLabResearch" width="900">
+</p>
 
-**International Platform for Scientific Software in Sport Science, Exercise and Health**
+<h1 align="center">SportsLabResearch</h1>
 
-SportsLabResearch is an open initiative focused on the design, development, validation and dissemination of scientific software, digital technologies and research tools for sport science, exercise physiology, health and performance analysis.
+<p align="center">
+Research Software • Sports Technology • Artificial Intelligence • Open Science
+</p>
 
-Our objective is to build an international ecosystem of open, reproducible and high-quality research software that supports researchers, teachers, students and professionals.
+<p align="center">
 
----
+![Version](https://img.shields.io/badge/version-v1.0.0-005BBB.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11+-3776AB.svg)
+![MkDocs](https://img.shields.io/badge/docs-MkDocs-526CFE.svg)
 
-## Vision
-
-To become an international reference platform for scientific software applied to sport science, exercise and health.
-
----
-
-## Mission
-
-- Develop open scientific software.
-- Promote reproducible research.
-- Design research hardware and digital technologies.
-- Support university teaching.
-- Facilitate technology transfer.
+</p>
 
 ---
 
-## Ecosystem
+## Welcome
 
-The SportsLabResearch ecosystem includes:
+**SportsLabResearch** is an open research initiative focused on the development of high-quality scientific software for Sports Science, Exercise Physiology, Wearable Technologies, Artificial Intelligence and Performance Analysis.
 
-- Research Software
-- Research Hardware
+The objective is to provide researchers, practitioners and students with reliable, reproducible and well-documented research software following international open science standards.
+
+---
+
+## Research Areas
+
+- Sports Performance Analysis
+- Wearable Sensors
+- Heart Rate Variability (HRV)
 - Artificial Intelligence
-- Mobile Applications
-- Teaching Resources
-- Scientific Validation
+- Data Science
+- Sports Analytics
+- Arduino & Embedded Systems
+- Research Software Engineering
 - Open Science
 
 ---
 
-## Current Projects
+## Featured Projects
 
-The complete portfolio of projects will be incorporated progressively.
+| Project | Status |
+|---------|--------|
+| HRV Longitudinal Analyzer | ✅ Active |
+| SportsData-Hub | ✅ Active |
+| Edge2Cloud HRV Validator | ✅ Active |
+| SportPy | 🚧 Development |
+| SportTech GitHub Analyzer | 🚧 Development |
+| Arduino Research Platform | 🚧 Development |
+
+---
+
+## Documentation
+
+Project documentation is available through GitHub Pages.
 
 ---
 
 ## License
 
-This project is distributed under an open-source license.
+MIT License
+
+---
+
+<p align="center">
+
+Developed by **SportsLabResearch**
+
+</p>
