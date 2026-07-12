@@ -1,31 +1,115 @@
-# Research Framework
+# SportsLabResearch Framework
 
-<div class="slr-page-intro">
-A stable project lifecycle for transforming scientific needs into transparent, validated and reusable digital tools.
-</div>
+The SportsLabResearch Framework defines the common methodology followed by every software and hardware project developed within the ecosystem.
 
-## Project lifecycle
+---
 
-<div class="slr-process slr-process--vertical">
-  <div><span>1</span><strong>Scientific definition</strong><p>Research problem, target users, variables, assumptions and expected outputs.</p></div>
-  <div><span>2</span><strong>Data specification</strong><p>Sources, formats, units, identifiers, missing data and quality requirements.</p></div>
-  <div><span>3</span><strong>Software design</strong><p>Modular architecture, configuration, traceability and cross-platform operation.</p></div>
-  <div><span>4</span><strong>Verification</strong><p>Automated tests, audits, sample datasets and controlled reference calculations.</p></div>
-  <div><span>5</span><strong>Scientific validation</strong><p>Agreement, reliability, sensitivity, uncertainty and domain-specific interpretation.</p></div>
-  <div><span>6</span><strong>Release and dissemination</strong><p>Versioning, documentation, citation, licensing, archival and maintenance.</p></div>
-</div>
+# Phase 1 — Research
 
-## Core principles
+* Problem identification
+* Literature review
+* Scientific objectives
+* Study design
 
-| Principle | Practical meaning |
-|---|---|
-| Reproducibility | Inputs, parameters, calculations and outputs remain traceable. |
-| Modularity | Components can evolve without destabilising the entire project. |
-| Validation | Technical correctness and scientific meaning are treated separately. |
-| Usability | Clear menus, sensible defaults and readable outputs support real users. |
-| Interoperability | Open formats and explicit schemas reduce dependency on closed systems. |
-| Sustainability | Versioning, documentation and testing support long-term maintenance. |
+---
 
-## Standard project outputs
+# Phase 2 — Design
 
-Every mature project should include source code, a clear README, user documentation, example data, validation material, a changelog, a licence, citation metadata and versioned releases.
+* Software architecture
+* Data model
+* User workflow
+* Interface design
+
+---
+
+# Phase 3 — Development
+
+* Modular programming
+* Version control
+* Code quality
+* Documentation
+
+---
+
+# Phase 4 — Validation
+
+Every project must include scientific validation whenever applicable.
+
+Validation may include:
+
+* Reliability
+* Accuracy
+* Precision
+* Agreement analysis
+* Statistical analysis
+* Benchmark testing
+
+---
+
+# Phase 5 — Documentation
+
+Each project includes:
+
+* README
+* User Guide
+* Technical Documentation
+* Changelog
+* License
+* Citation file
+
+---
+
+# Phase 6 — Publication
+
+Projects are disseminated through:
+
+* GitHub
+* GitHub Pages
+* Zenodo
+* Scientific Journals
+* Conference Communications
+
+---
+
+# Phase 7 — Maintenance
+
+* Continuous improvement
+* Bug fixing
+* New releases
+* Scientific updates
+
+---
+
+# Core Values
+
+* Scientific Excellence
+* Transparency
+* Reproducibility
+* Open Science
+* FAIR Principles
+* Long-Term Sustainability
+
+---
+
+# Standard Project Structure
+
+```text
+Project
+│
+├── docs
+├── src
+├── data
+├── tests
+├── assets
+├── config
+├── results
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+├── CITATION.cff
+└── mkdocs.yml
+```
+
+---
+
+> **Every project. Same methodology. Same scientific standards.**

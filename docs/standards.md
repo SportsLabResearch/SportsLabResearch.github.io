@@ -1,29 +1,120 @@
-# Standards
+# Scientific Standards
 
-<div class="slr-page-intro">
-Common standards give every SportsLabResearch project a recognisable structure and a consistent level of scientific and technical quality.
-</div>
+Every project developed under SportsLabResearch follows common scientific and software engineering standards to ensure quality, reproducibility and long-term sustainability.
 
-## Minimum project standard
+---
 
-<div class="slr-card-grid slr-card-grid--three">
-  <article class="slr-card"><h3>Structure</h3><p>Clear separation of source code, configuration, data, tests, documentation and results.</p></article>
-  <article class="slr-card"><h3>Documentation</h3><p>Installation, workflow, inputs, outputs, methods, limitations and examples.</p></article>
-  <article class="slr-card"><h3>Versioning</h3><p>Semantic versions, changelog entries, stable releases and traceable development.</p></article>
-  <article class="slr-card"><h3>Quality</h3><p>Automated tests, project audits, controlled errors and reproducible examples.</p></article>
-  <article class="slr-card"><h3>Validation</h3><p>Technical verification and scientific validation reported as distinct processes.</p></article>
-  <article class="slr-card"><h3>Dissemination</h3><p>Licence, citation metadata, DOI when appropriate and accessible documentation.</p></article>
-</div>
+# Research Standards
 
-## Data principles
+* Evidence-based development
+* Scientific methodology
+* Transparent reporting
+* Reproducible research
+* Ethical research practices
 
-- Preserve raw data whenever legally and ethically possible.
-- Never overwrite source files during processing.
-- Record units, timestamps, device information and transformations.
-- Separate raw, processed and result datasets.
-- Document exclusions, corrections and missing-data decisions.
-- Protect personal and sensitive information by design.
+---
 
-## Reporting principles
+# Software Standards
 
-Outputs should combine numerical results with interpretation. Tables and figures must use explicit labels, units and definitions. Reports should state limitations and avoid presenting exploratory findings as validated conclusions.
+Every project includes:
+
+* Modular architecture
+* Version control (Git)
+* Professional documentation
+* CHANGELOG
+* LICENSE
+* CITATION.cff
+* Continuous maintenance
+
+---
+
+# Validation Standards
+
+Whenever applicable, projects should report:
+
+* Validity
+* Reliability
+* Accuracy
+* Precision
+* Agreement
+* Benchmark comparison
+* Statistical evaluation
+
+---
+
+# Documentation Standards
+
+Each repository includes:
+
+* README
+* User Guide
+* Technical Documentation
+* API Documentation (when applicable)
+* Examples
+* Release Notes
+
+---
+
+# Open Science Standards
+
+SportsLabResearch promotes:
+
+* Open-source software
+* FAIR principles
+* Reproducible workflows
+* Transparent development
+* Open documentation
+
+---
+
+# Development Standards
+
+The recommended workflow is:
+
+Research
+
+↓
+
+Design
+
+↓
+
+Development
+
+↓
+
+Validation
+
+↓
+
+Documentation
+
+↓
+
+Publication
+
+↓
+
+Maintenance
+
+---
+
+# Quality Checklist
+
+Every project should satisfy the following checklist before a public release:
+
+| Item              | Required |
+| ----------------- | :------: |
+| README            |     ✅    |
+| Documentation     |     ✅    |
+| License           |     ✅    |
+| CHANGELOG         |     ✅    |
+| Citation File     |     ✅    |
+| Version Number    |     ✅    |
+| Validation        |     ✅    |
+| Examples          |     ✅    |
+| GitHub Repository |     ✅    |
+
+---
+
+> **Quality is not an option; it is the foundation of every SportsLabResearch project.**

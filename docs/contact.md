@@ -1,26 +1,79 @@
 # Contact
 
-<div class="slr-page-intro">
-Collaboration is welcome when it is aligned with open science, methodological rigour and sustainable research software.
-</div>
+SportsLabResearch is an open research initiative focused on the development of scientific software and digital technologies for Sport Science.
 
-<div class="slr-card-grid slr-card-grid--two">
-  <article class="slr-card">
-    <h3>Software and technical collaboration</h3>
-    <p>Use the relevant GitHub repository for issues, feature proposals, reproducible bug reports and technical contributions.</p>
-    <a href="https://github.com/SportsLabResearch">Open SportsLabResearch on GitHub →</a>
-  </article>
-  <article class="slr-card">
-    <h3>Scientific collaboration</h3>
-    <p>Potential collaborations should define the research question, dataset, expected contribution, validation plan and dissemination pathway.</p>
-    <a href="about/">Review our scope →</a>
-  </article>
-</div>
+---
 
-## A useful first message includes
+# Organization
 
-- The scientific or professional problem.
-- The available data and devices.
-- The intended users and outputs.
-- The expected validation level.
-- The proposed contribution of each collaborator.
+**SportsLabResearch**
+
+Research Software for Sport Science
+
+---
+
+# Research Areas
+
+* Sports Performance
+* Exercise Physiology
+* Wearable Technologies
+* Heart Rate Variability
+* Artificial Intelligence
+* Sports Analytics
+* Research Software Engineering
+* Arduino & Embedded Systems
+
+---
+
+# Online Resources
+
+## GitHub
+
+https://github.com/SportsLabResearch
+
+---
+
+## Documentation
+
+Project documentation is available through the official GitHub Pages website.
+
+---
+
+## Research Software
+
+All software repositories include:
+
+* Source code
+* Documentation
+* Releases
+* Version history
+* License
+* Citation information
+
+---
+
+# Collaboration
+
+SportsLabResearch welcomes collaborations in:
+
+* Research projects
+* Scientific software
+* Validation studies
+* Educational innovation
+* Open Science initiatives
+
+---
+
+# Citation
+
+Please cite the corresponding software repository and publication whenever SportsLabResearch tools are used in scientific work.
+
+---
+
+# Mission
+
+To develop reliable, reproducible and sustainable scientific software that contributes to the advancement of Sport Science.
+
+---
+
+> **Building the future of Sport Science through Research Software.**

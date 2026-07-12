@@ -1,67 +1,241 @@
-<div class="slr-hero">
-  <div class="slr-hero__content">
-    <div class="slr-eyebrow">SPORT SCIENCE · EXERCISE · HEALTH</div>
-    <h1>Scientific technology built for real research.</h1>
-    <p class="slr-hero__lead">
-      SportsLabResearch develops open, reproducible and scientifically grounded software for sensor data, human performance, exercise physiology and digital health.
-    </p>
-    <div class="slr-actions">
-      <a class="slr-button slr-button--primary" href="portfolio/">Explore the portfolio</a>
-      <a class="slr-button slr-button--secondary" href="https://github.com/SportsLabResearch">View on GitHub</a>
-    </div>
-  </div>
-  <div class="slr-hero__visual">
-    <img src="assets/sportslabresearch-header-logo.png" alt="SportsLabResearch">
-    <div class="slr-signal slr-signal--one"></div>
-    <div class="slr-signal slr-signal--two"></div>
-  </div>
+<div class="slr-hero-image">
+
+![SportsLabResearch](assets/branding/banner.png)
+
 </div>
 
-<div class="slr-metrics">
-  <div class="slr-metric"><strong>Open</strong><span>Transparent research software</span></div>
-  <div class="slr-metric"><strong>Validated</strong><span>Scientific and technical verification</span></div>
-  <div class="slr-metric"><strong>Reusable</strong><span>Modular and documented workflows</span></div>
-  <div class="slr-metric"><strong>Applied</strong><span>Research, teaching and practice</span></div>
+<div class="slr-hero" markdown>
+
+# SportsLabResearch
+
+## Research Software for Sport Science
+
+Scientific software, wearable technologies, artificial intelligence, physiological signal analysis and sports analytics integrated into one professional research ecosystem.
+
+[Explore the portfolio](portfolio.md){ .md-button .md-button--primary }
+[View the framework](framework.md){ .md-button }
+
 </div>
 
-## One ecosystem, multiple research layers
+<div class="grid cards" markdown>
 
-<div class="slr-card-grid slr-card-grid--three">
-  <article class="slr-card">
-    <div class="slr-card__icon">01</div>
-    <h3>Research software</h3>
-    <p>Tools for longitudinal analysis, validation, reporting, data discovery and reproducible scientific workflows.</p>
-    <a href="portfolio/">Discover the software →</a>
-  </article>
-  <article class="slr-card">
-    <div class="slr-card__icon">02</div>
-    <h3>Sensors and data</h3>
-    <p>Methods for HRV, GNSS, IMU, physiological monitoring and the integration of multimodal sport data.</p>
-    <a href="framework/">View the framework →</a>
-  </article>
-  <article class="slr-card">
-    <div class="slr-card__icon">03</div>
-    <h3>Teaching and transfer</h3>
-    <p>Resources that connect research methods with university teaching and professional practice.</p>
-    <a href="about/">Learn about the mission →</a>
-  </article>
+* :material-application-braces-outline:{ .lg .middle } **6+ Research Projects**
+
+  Scientific software and technology platforms under active development.
+
+* :material-code-tags:{ .lg .middle } **Open Software**
+
+  Versioned, documented and reproducible research tools.
+
+* :material-watch-variant:{ .lg .middle } **Wearable Technologies**
+
+  HRV, GNSS, IMU, heart rate and sensor validation.
+
+* :material-flask-outline:{ .lg .middle } **Scientific Framework**
+
+  One methodology, one quality standard and one research identity.
+
 </div>
 
-## From raw signal to scientific evidence
+---
 
-<div class="slr-process">
-  <div><span>1</span><strong>Acquire</strong><p>Wearables, sensors, applications and external data sources.</p></div>
-  <div><span>2</span><strong>Audit</strong><p>Structure, traceability, completeness and data quality checks.</p></div>
-  <div><span>3</span><strong>Analyse</strong><p>Transparent methods, reproducible calculations and documented decisions.</p></div>
-  <div><span>4</span><strong>Validate</strong><p>Technical, analytical and scientific verification.</p></div>
-  <div><span>5</span><strong>Report</strong><p>Readable outputs for researchers, professionals and participants.</p></div>
+## Research Ecosystem
+
+<div class="grid cards" markdown>
+
+* :material-code-braces:{ .lg .middle } **Research Software**
+
+  Scientific applications for data processing, statistical analysis, reporting and decision support.
+
+  [Explore software](portfolio.md)
+
+* :material-watch-variant:{ .lg .middle } **Wearable Technologies**
+
+  Physiological monitoring, GPS, IMU, HRV and multimodal sensor integration.
+
+  [View research areas](about.md)
+
+* :material-brain:{ .lg .middle } **Artificial Intelligence**
+
+  Machine learning, computer vision and intelligent sports data analysis.
+
+  [View framework](framework.md)
+
+* :material-chart-line:{ .lg .middle } **Sports Analytics**
+
+  Performance analysis, predictive modelling and scientific visualisation.
+
+  [Explore standards](standards.md)
+
+* :material-chip:{ .lg .middle } **Embedded Systems**
+
+  Arduino, connected sensors and experimental hardware for teaching and research.
+
+  [Explore portfolio](portfolio.md)
+
+* :material-earth:{ .lg .middle } **Open Science**
+
+  FAIR principles, transparent development, versioning and reproducible workflows.
+
+  [View publications](publications.md)
+
 </div>
 
-<div class="slr-feature-band">
-  <div>
-    <div class="slr-eyebrow">OPEN SCIENCE BY DESIGN</div>
-    <h2>More than repositories.</h2>
-    <p>Each project is conceived as a complete research asset: code, documentation, validation, versioning, examples, outputs and a clear path to reuse.</p>
-  </div>
-  <a class="slr-button slr-button--primary" href="standards/">Read our standards</a>
+---
+
+## Featured Projects
+
+<div class="grid cards" markdown>
+
+* **HRV Longitudinal Analyzer**
+
+  Longitudinal analysis of heart rate variability for scientific research and applied monitoring.
+
+  **Status:** Active
+
+  [Project portfolio](portfolio.md)
+
+* **SportsData-Hub**
+
+  Intelligent platform for discovering, collecting and organising sports data sources.
+
+  **Status:** Active
+
+  [Project portfolio](portfolio.md)
+
+* **Edge2Cloud HRV Validator**
+
+  Validation of HRV measurements across mobile, edge and cloud environments.
+
+  **Status:** Active
+
+  [Project portfolio](portfolio.md)
+
+* **SportPy**
+
+  Scientific Python toolkit for sport science analysis and reproducible reporting.
+
+  **Status:** Development
+
+  [Project portfolio](portfolio.md)
+
+* **SportTech GitHub Analyzer**
+
+  Scientific and technical assessment of GitHub repositories related to sports technology.
+
+  **Status:** Development
+
+  [Project portfolio](portfolio.md)
+
+* **Arduino Research Platform**
+
+  Open hardware ecosystem for education, experimentation and sensor-based research.
+
+  **Status:** Development
+
+  [Project portfolio](portfolio.md)
+
+</div>
+
+---
+
+## One Scientific Methodology
+
+Every SportsLabResearch project follows a common workflow:
+
+<div class="grid cards" markdown>
+
+* **1. Research**
+
+  Scientific problem, objectives and evidence base.
+
+* **2. Design**
+
+  Architecture, data model and user workflow.
+
+* **3. Development**
+
+  Modular implementation and version control.
+
+* **4. Validation**
+
+  Reliability, accuracy, agreement and benchmarking.
+
+* **5. Documentation**
+
+  User guides, technical documentation and citation files.
+
+* **6. Publication**
+
+  GitHub, GitHub Pages, Zenodo and scientific dissemination.
+
+</div>
+
+[Explore the complete framework](framework.md){ .md-button .md-button--primary }
+
+---
+
+## Quality Principles
+
+* Scientific validation
+* Reproducible research
+* Modular architecture
+* Professional documentation
+* Version control
+* FAIR principles
+* Open Science
+* Long-term sustainability
+
+---
+
+## Explore SportsLabResearch
+
+<div class="grid cards" markdown>
+
+* **About**
+
+  Mission, vision, research lines and development philosophy.
+
+  [Open About](about.md)
+
+* **Portfolio**
+
+  Current scientific software, hardware and technology projects.
+
+  [Open Portfolio](portfolio.md)
+
+* **Framework**
+
+  Common methodology for all SportsLabResearch projects.
+
+  [Open Framework](framework.md)
+
+* **Standards**
+
+  Scientific, technical and documentation quality criteria.
+
+  [Open Standards](standards.md)
+
+* **Publications**
+
+  Research articles, software, datasets and technical reports.
+
+  [Open Publications](publications.md)
+
+* **Contact**
+
+  Collaboration, citation and institutional information.
+
+  [Open Contact](contact.md)
+
+</div>
+
+---
+
+<div align="center">
+
+## Research Software engineered for the future of Sport Science
+
+**One ecosystem. One methodology. One scientific identity.**
+
 </div>
