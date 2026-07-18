@@ -380,16 +380,15 @@ title: SportsLabResearch
 
     <div class="slr-hero-copy">
       <p class="slr-eyebrow">
-        Open Research Software for Sports Science
+        Open Research Software
       </p>
 
       <h1>
-        Scientific software, wearable technologies and reproducible research.
+        Advancing Sports Science through Open Research Software
       </h1>
 
       <p class="slr-hero-text">
-        SportsLabResearch develops open-source tools, validated workflows and
-        research infrastructure for sports science.
+        FAIR. Reproducible. Validated.
       </p>
     </div>
 
@@ -455,5 +454,7 @@ title: SportsLabResearch
   </section>
 
 </div>
+
+
 
 
