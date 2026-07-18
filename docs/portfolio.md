@@ -2,53 +2,69 @@
 
 Open, reproducible and scientifically validated software developed by **SportsLabResearch**.
 
-<div class="grid cards" markdown>
+<div class="research-software-list" markdown>
 
--   :material-rugby: **Rugby 7 Referee Spatial Analysis**
+<div class="research-software-item" markdown>
 
-    GNSS-based spatial and locomotor analysis of Rugby Sevens referees.
+### :material-rugby: Rugby 7 Referee Spatial Analysis
 
-    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis){ .md-button }
+GNSS-based spatial and locomotor analysis of Rugby Sevens referees.
 
-    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-rugby7-referee-spatial-analysis/){ .md-button }
+<div class="research-software-links" markdown>
 
-    [:material-database: DOI](https://zenodo.org/records/21426713){ .md-button }
+[:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis)
+[:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-rugby7-referee-spatial-analysis/)
+[:material-database: 10.5281/zenodo.21426713](https://doi.org/10.5281/zenodo.21426713)
 
--   :material-heart-pulse: **BloodPressure Analyzer**
+</div>
+</div>
 
-    Scientific software for automated blood-pressure analysis.
+<div class="research-software-item" markdown>
 
-    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
+### :material-heart-pulse: BloodPressure Analyzer
 
-    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-BloodPressure-Analyzer/){ .md-button }
+Scientific software for automated blood-pressure analysis.
 
-    [:material-tag: Releases](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer/releases){ .md-button }
+<div class="research-software-links" markdown>
 
-    [:material-database: DOI](https://zenodo.org/records/21273738){ .md-button }
+[:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer)
+[:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-BloodPressure-Analyzer/)
+[:material-tag: Releases](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer/releases)
+[:material-database: 10.5281/zenodo.21273738](https://doi.org/10.5281/zenodo.21273738)
 
--   :material-access-point: **WIMU DataExtractor**
+</div>
+</div>
 
-    Automated extraction and preprocessing of WIMU datasets.
+<div class="research-software-item" markdown>
 
-    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor){ .md-button }
+### :material-access-point: WIMU DataExtractor
 
-    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/){ .md-button }
+Automated extraction and preprocessing of WIMU datasets.
 
-    [:material-database: DOI](https://zenodo.org/records/21344653){ .md-button }
+<div class="research-software-links" markdown>
 
--   :material-heart: **HRV Longitudinal Analyzer**
+[:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor)
+[:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/)
+[:material-database: 10.5281/zenodo.21344653](https://doi.org/10.5281/zenodo.21344653)
 
-    Longitudinal analysis of heart-rate variability.
+</div>
+</div>
 
-    [:material-github: Repository](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer){ .md-button }
+<div class="research-software-item" markdown>
 
-    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/HRV-Longitudinal-Analyzer/){ .md-button }
+### :material-heart: HRV-Longitudinal-Analyzer
 
-    [:material-tag: Releases](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer/releases){ .md-button }
+Longitudinal analysis of heart-rate variability.
 
-[:material-database: DOI](https://doi.org/10.5281/zenodo.21273737){ .md-button }
+<div class="research-software-links" markdown>
 
-    **DOI:** Pending Zenodo publication.
+[:material-github: Repository](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer)
+[:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/HRV-Longitudinal-Analyzer/)
+[:material-tag: Releases](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer/releases)
+[:material-database: 10.5281/zenodo.21273737](https://doi.org/10.5281/zenodo.21273737)
+
+</div>
+</div>
 
 </div>
 
@@ -63,6 +79,3 @@ Open, reproducible and scientifically validated software developed by **SportsLa
 - FAIR principles
 
 > One portfolio. One methodology. One identity.
-
-
-
