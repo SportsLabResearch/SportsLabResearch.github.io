@@ -116,6 +116,44 @@ title: SportsLabResearch
   transform: translateY(-84px);
 }
 
+/* MENSAJE PRINCIPAL DE PORTADA */
+
+.slr-hero-copy {
+  position: absolute;
+  left: 4.4%;
+  bottom: 28%;
+  z-index: 20;
+  width: min(760px, 88%);
+  color: #fff;
+}
+
+.slr-eyebrow {
+  margin: 0 0 14px;
+  color: #5ba7ff;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.slr-hero-copy h1 {
+  max-width: 760px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(38px, 5vw, 68px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.slr-hero-text {
+  max-width: 650px;
+  margin: 22px 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 19px;
+  line-height: 1.55;
+}
+
 /* BOTONES FUNCIONALES */
 
 .slr-actions {
@@ -274,6 +312,26 @@ title: SportsLabResearch
     transform: translateY(-65px);
   }
 
+
+  .slr-hero-copy {
+    left: 20px;
+    right: 20px;
+    bottom: 190px;
+    width: auto;
+  }
+
+  .slr-eyebrow {
+    font-size: 12px;
+  }
+
+  .slr-hero-copy h1 {
+    font-size: 34px;
+  }
+
+  .slr-hero-text {
+    margin-top: 16px;
+    font-size: 16px;
+  }
   .slr-actions {
     left: 20px;
     right: 20px;
@@ -319,6 +377,21 @@ title: SportsLabResearch
       class="slr-hero-image"
       src="assets/portada.png"
       alt="SportsLabResearch">
+
+    <div class="slr-hero-copy">
+      <p class="slr-eyebrow">
+        Open Research Software for Sports Science
+      </p>
+
+      <h1>
+        Scientific software, wearable technologies and reproducible research.
+      </h1>
+
+      <p class="slr-hero-text">
+        SportsLabResearch develops open-source tools, validated workflows and
+        research infrastructure for sports science.
+      </p>
+    </div>
 
     <div class="slr-actions">
       <a class="slr-button slr-button-primary" href="portfolio/">
@@ -382,4 +455,5 @@ title: SportsLabResearch
   </section>
 
 </div>
+
 
