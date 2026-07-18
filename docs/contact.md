@@ -1,79 +1,37 @@
-# Contact
+﻿# Contact
 
-SportsLabResearch is an open research initiative focused on the development of scientific software and digital technologies for Sport Science.
+SportsLabResearch develops open, reproducible and scientifically validated research software for Sport Science, Health and Human Performance.
 
----
+## Collaborations
 
-# Organization
+We welcome:
+
+- Research collaborations
+- Academic partnerships
+- Software development
+- Validation studies
+- Scientific consulting
+
+## Contact
 
 **SportsLabResearch**
 
-Research Software for Sport Science
-
----
-
-# Research Areas
-
-* Sports Performance
-* Exercise Physiology
-* Wearable Technologies
-* Heart Rate Variability
-* Artificial Intelligence
-* Sports Analytics
-* Research Software Engineering
-* Arduino & Embedded Systems
-
----
-
-# Online Resources
-
-## GitHub
-
-https://github.com/SportsLabResearch
-
----
-
-## Documentation
-
-Project documentation is available through the official GitHub Pages website.
-
----
+[:material-github: GitHub](https://github.com/SportsLabResearch){ .md-button }
 
 ## Research Software
 
-All software repositories include:
+- HRV Longitudinal Analyzer
+- BloodPressure Analyzer
+- WIMU DataExtractor
+- Rugby 7 Referee Spatial Analysis
 
-* Source code
-* Documentation
-* Releases
-* Version history
-* License
-* Citation information
+## Citation
 
----
-
-# Collaboration
-
-SportsLabResearch welcomes collaborations in:
-
-* Research projects
-* Scientific software
-* Validation studies
-* Educational innovation
-* Open Science initiatives
+If you use any SportsLabResearch software in your research, please cite the corresponding Zenodo DOI and GitHub repository.
 
 ---
 
-# Citation
+**GitHub Organization**
 
-Please cite the corresponding software repository and publication whenever SportsLabResearch tools are used in scientific work.
+https://github.com/SportsLabResearch
 
----
-
-# Mission
-
-To develop reliable, reproducible and sustainable scientific software that contributes to the advancement of Sport Science.
-
----
-
-> **Building the future of Sport Science through Research Software.**
