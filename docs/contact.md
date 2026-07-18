@@ -1,45 +1,72 @@
 ﻿# Contact
 
-## SportsLabResearch
+## Prof. José Pedro Pino Ortega
 
-Scientific software for Sport Science, Human Performance, Health Sciences and Reproducible Research.
-
-## Principal Investigator
-
-**Prof. José Pedro Pino Ortega**
+**Principal Investigator**  
+SportsLabResearch
 
 Faculty of Sport Sciences  
 University of Murcia  
 Murcia, Spain
 
-## Contact information
+---
 
-**Email:** [pepepinoortega@gmail.com](mailto:pepepinoortega@gmail.com)
+## Contact Information
 
-**Website:** [sportslabresearch.org](https://sportslabresearch.org)
+**Institutional Email**
 
-**GitHub:** [SportsLabResearch](https://github.com/SportsLabResearch)
+josepinoortega@um.es
 
-**ORCID:** [0000-0002-9091-0897](https://orcid.org/0000-0002-9091-0897)
+**Personal Email**
 
-**ResearcherID:** [M-7581-2017](https://www.webofscience.com/wos/author/record/M-7581-2017)
+pepepinoortega@gmail.com
 
-**Scopus Author ID:** [57212882611](https://www.scopus.com/authid/detail.uri?authorId=57212882611)
+**Website**
 
-**SciProfiles:** [Profile 570378](https://sciprofiles.com/profile/570378)
+https://sportslabresearch.org
 
-## Research areas
+**GitHub**
+
+https://github.com/SportsLabResearch
+
+---
+
+## Research Profiles
+
+**ORCID**
+
+https://orcid.org/0000-0002-9091-0897
+
+**Google Scholar**
+
+https://scholar.google.com/citations?user=2f0o2JQAAAAJ
+
+**ResearchGate**
+
+https://www.researchgate.net/profile/Jose-Pino-Ortega-2
+
+**Scopus Author ID**
+
+https://www.scopus.com/authid/detail.uri?authorId=57212882611
+
+**ResearcherID**
+
+https://www.webofscience.com/wos/author/record/M-7581-2017
+
+---
+
+## Research Interests
 
 - Sport Science
-- Exercise Physiology
 - Human Performance
 - Heart Rate Variability
-- Blood Pressure
-- Wearable Technologies
-- GNSS
+- Blood Pressure Analysis
+- GNSS and Wearable Technologies
 - Artificial Intelligence
 - Research Software
 - Open Science
 - FAIR Principles
+
+---
 
 Questions, scientific collaborations and institutional partnerships are welcome.
