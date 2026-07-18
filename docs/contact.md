@@ -1,6 +1,6 @@
 ﻿# Contact
 
-## Prof. Pedro Pino Ortega
+## Prof. José Pino Ortega
 
 **Principal Investigator**  
 SportsLabResearch
@@ -70,5 +70,6 @@ https://www.webofscience.com/wos/author/record/M-7581-2017
 ---
 
 Questions, scientific collaborations and institutional partnerships are welcome.
+
 
 
