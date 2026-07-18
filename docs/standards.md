@@ -1,4 +1,4 @@
-# Scientific Standards
+﻿# Scientific Standards
 
 Every project developed under SportsLabResearch follows common scientific and software engineering standards to ensure quality, reproducibility and long-term sustainability.
 
@@ -73,27 +73,27 @@ The recommended workflow is:
 
 Research
 
-↓
+â†“
 
 Design
 
-↓
+â†“
 
 Development
 
-↓
+â†“
 
 Validation
 
-↓
+â†“
 
 Documentation
 
-↓
+â†“
 
 Publication
 
-↓
+â†“
 
 Maintenance
 
@@ -105,16 +105,17 @@ Every project should satisfy the following checklist before a public release:
 
 | Item              | Required |
 | ----------------- | :------: |
-| README            |     ✅    |
-| Documentation     |     ✅    |
-| License           |     ✅    |
-| CHANGELOG         |     ✅    |
-| Citation File     |     ✅    |
-| Version Number    |     ✅    |
-| Validation        |     ✅    |
-| Examples          |     ✅    |
-| GitHub Repository |     ✅    |
+| README            |     âœ…    |
+| Documentation     |     âœ…    |
+| License           |     âœ…    |
+| CHANGELOG         |     âœ…    |
+| Citation File     |     âœ…    |
+| Version Number    |     âœ…    |
+| Validation        |     âœ…    |
+| Examples          |     âœ…    |
+| GitHub Repository |     âœ…    |
 
 ---
 
 > **Quality is not an option; it is the foundation of every SportsLabResearch project.**
+

@@ -1,11 +1,11 @@
-<p align="center">
+﻿<p align="center">
   <img src="docs/assets/sportslabresearch-header-logo.png" alt="SportsLabResearch" width="900">
 </p>
 
 <h1 align="center">SportsLabResearch</h1>
 
 <p align="center">
-  <strong>Research Software · Sports Technology · Artificial Intelligence · Open Science</strong>
+  <strong>Research Software Â· Sports Technology Â· Artificial Intelligence Â· Open Science</strong>
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Open research initiative focused on scientific software, wearable technologies, 
 
 ## Technologies
 
-Python · MkDocs · Git · GitHub · Zenodo · Arduino · Pandas · NumPy · Plotly
+Python Â· MkDocs Â· Git Â· GitHub Â· Zenodo Â· Arduino Â· Pandas Â· NumPy Â· Plotly
 
 ## License
 
@@ -75,3 +75,4 @@ MIT License
   <strong>SportsLabResearch</strong><br>
   Research Software for Sport Science
 </p>
+

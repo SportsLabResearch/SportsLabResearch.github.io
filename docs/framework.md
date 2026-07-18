@@ -1,10 +1,10 @@
-# SportsLabResearch Framework
+﻿# SportsLabResearch Framework
 
 The SportsLabResearch Framework defines the common methodology followed by every software and hardware project developed within the ecosystem.
 
 ---
 
-# Phase 1 — Research
+# Phase 1 â€” Research
 
 * Problem identification
 * Literature review
@@ -13,7 +13,7 @@ The SportsLabResearch Framework defines the common methodology followed by every
 
 ---
 
-# Phase 2 — Design
+# Phase 2 â€” Design
 
 * Software architecture
 * Data model
@@ -22,7 +22,7 @@ The SportsLabResearch Framework defines the common methodology followed by every
 
 ---
 
-# Phase 3 — Development
+# Phase 3 â€” Development
 
 * Modular programming
 * Version control
@@ -31,7 +31,7 @@ The SportsLabResearch Framework defines the common methodology followed by every
 
 ---
 
-# Phase 4 — Validation
+# Phase 4 â€” Validation
 
 Every project must include scientific validation whenever applicable.
 
@@ -46,7 +46,7 @@ Validation may include:
 
 ---
 
-# Phase 5 — Documentation
+# Phase 5 â€” Documentation
 
 Each project includes:
 
@@ -59,7 +59,7 @@ Each project includes:
 
 ---
 
-# Phase 6 — Publication
+# Phase 6 â€” Publication
 
 Projects are disseminated through:
 
@@ -71,7 +71,7 @@ Projects are disseminated through:
 
 ---
 
-# Phase 7 — Maintenance
+# Phase 7 â€” Maintenance
 
 * Continuous improvement
 * Bug fixing
@@ -95,21 +95,22 @@ Projects are disseminated through:
 
 ```text
 Project
-│
-├── docs
-├── src
-├── data
-├── tests
-├── assets
-├── config
-├── results
-├── README.md
-├── LICENSE
-├── CHANGELOG.md
-├── CITATION.cff
-└── mkdocs.yml
+â”‚
+â”œâ”€â”€ docs
+â”œâ”€â”€ src
+â”œâ”€â”€ data
+â”œâ”€â”€ tests
+â”œâ”€â”€ assets
+â”œâ”€â”€ config
+â”œâ”€â”€ results
+â”œâ”€â”€ README.md
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ CHANGELOG.md
+â”œâ”€â”€ CITATION.cff
+â””â”€â”€ mkdocs.yml
 ```
 
 ---
 
 > **Every project. Same methodology. Same scientific standards.**
+

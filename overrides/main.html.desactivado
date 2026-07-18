@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+﻿{% extends "base.html" %}
 
 {% block extrahead %}
   {{ super() }}
@@ -10,7 +10,7 @@
 {% block announce %}
   <div class="slr-announcement">
     <span>SportsLabResearch</span>
-    <span class="slr-announcement-separator">•</span>
+    <span class="slr-announcement-separator">â€¢</span>
     <span>Research Software for Sport Science</span>
   </div>
 {% endblock %}
@@ -78,7 +78,7 @@
     </div>
 
     <div class="slr-footer-bottom">
-      <span>© 2026 SportsLabResearch</span>
+      <span>Â© 2026 SportsLabResearch</span>
       <span>Research Software for Sport Science</span>
     </div>
   </footer>

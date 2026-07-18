@@ -1,4 +1,4 @@
-# About SportsLabResearch
+﻿# About SportsLabResearch
 
 SportsLabResearch is an independent research initiative focused on the development of scientific software, hardware and digital technologies for Sports Science.
 
@@ -93,3 +93,4 @@ SportsLabResearch promotes transparent, reproducible and sustainable scientific 
 ---
 
 > **Research Software engineered for the future of Sport Science.**
+

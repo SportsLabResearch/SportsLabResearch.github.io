@@ -1,4 +1,4 @@
-# Publications
+﻿# Publications
 
 SportsLabResearch promotes the dissemination of scientific knowledge through publications, research software, technical documentation and open science resources.
 
@@ -99,3 +99,4 @@ If you use SportsLabResearch software in your research, please cite the correspo
 ---
 
 > **Knowledge grows when research, software and education are shared openly.**
+
