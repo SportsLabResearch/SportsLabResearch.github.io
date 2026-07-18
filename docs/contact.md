@@ -1,20 +1,10 @@
 ﻿# Contact
 
-SportsLabResearch develops open, reproducible and scientifically validated research software for Sport Science, Health and Human Performance.
-
-## Collaborations
-
-We welcome:
-
-- Research collaborations
-- Academic partnerships
-- Software development
-- Validation studies
-- Scientific consulting
+SportsLabResearch develops open, reproducible and scientifically validated research software.
 
 ## Contact
 
-**SportsLabResearch**
+Questions, collaborations and scientific partnerships are welcome.
 
 [:material-github: GitHub](https://github.com/SportsLabResearch){ .md-button }
 
@@ -27,11 +17,5 @@ We welcome:
 
 ## Citation
 
-If you use any SportsLabResearch software in your research, please cite the corresponding Zenodo DOI and GitHub repository.
-
----
-
-**GitHub Organization**
-
-https://github.com/SportsLabResearch
+Please cite the corresponding GitHub repository and Zenodo DOI when using SportsLabResearch software.
 
