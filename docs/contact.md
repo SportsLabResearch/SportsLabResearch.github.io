@@ -1,54 +1,45 @@
-﻿# Contact SportsLabResearch
+﻿# Contact
 
-## Research Software and Scientific Collaboration
+## SportsLabResearch
 
-SportsLabResearch develops open, reproducible and scientifically validated software for sport science, health and human performance.
+Scientific software for Sport Science, Human Performance, Health Sciences and Reproducible Research.
 
-<div class="grid cards" markdown>
+## Principal Investigator
 
--   :material-github: **GitHub Organization**
+**Prof. José Pedro Pino Ortega**
 
-    Access our repositories, releases, documentation and open-source projects.
+Faculty of Sport Sciences  
+University of Murcia  
+Murcia, Spain
 
-    [:material-github: Visit SportsLabResearch](https://github.com/SportsLabResearch){ .md-button .md-button--primary }
+## Contact information
 
--   :material-source-repository: **Research Software**
+**Email:** [pepepinoortega@gmail.com](mailto:pepepinoortega@gmail.com)
 
-    Explore all public software developed and maintained by SportsLabResearch.
+**Website:** [sportslabresearch.org](https://sportslabresearch.org)
 
-    [:material-view-grid: Software Portfolio](../portfolio/){ .md-button }
+**GitHub:** [SportsLabResearch](https://github.com/SportsLabResearch)
 
--   :material-message-text: **Questions and collaboration**
+**ORCID:** [0000-0002-9091-0897](https://orcid.org/0000-0002-9091-0897)
 
-    For questions, scientific collaborations or software proposals, contact us through GitHub.
+**ResearcherID:** [M-7581-2017](https://www.webofscience.com/wos/author/record/M-7581-2017)
 
-    [:material-message-alert: Open a GitHub issue](https://github.com/SportsLabResearch/SportsLabResearch.github.io/issues/new){ .md-button }
+**Scopus Author ID:** [57212882611](https://www.scopus.com/authid/detail.uri?authorId=57212882611)
 
-</div>
+**SciProfiles:** [Profile 570378](https://sciprofiles.com/profile/570378)
 
-## Areas of collaboration
+## Research areas
 
-- Sport science
-- Human performance
-- Heart-rate variability
-- Blood-pressure analysis
-- GNSS and wearable technology
-- Scientific data processing
-- Research software development
-- Reproducible and FAIR research
+- Sport Science
+- Exercise Physiology
+- Human Performance
+- Heart Rate Variability
+- Blood Pressure
+- Wearable Technologies
+- GNSS
+- Artificial Intelligence
+- Research Software
+- Open Science
+- FAIR Principles
 
-## SportsLabResearch projects
-
-- HRV Longitudinal Analyzer
-- SportsLabResearch BloodPressure Analyzer
-- SportsLabResearch WIMU DataExtractor
-- Rugby 7 Referee Spatial Analysis
-
-## Citation and reuse
-
-When using SportsLabResearch software, cite the corresponding repository and Zenodo DOI described in the project documentation.
-
----
-
-**Official GitHub organization:**  
-[https://github.com/SportsLabResearch](https://github.com/SportsLabResearch)
+Questions, scientific collaborations and institutional partnerships are welcome.
