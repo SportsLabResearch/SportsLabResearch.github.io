@@ -335,3 +335,75 @@ body:has(.slr-home) .md-content__inner::before {
     gap: 0.45rem;
   }
 }
+
+/* Clean research software portfolio */
+
+.portfolio-list {
+  margin-top: 2rem;
+}
+
+.portfolio-project {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.portfolio-project:first-child {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.portfolio-project-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0.15rem;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.portfolio-project-content h2 {
+  margin: 0 0 0.45rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.portfolio-project-content p {
+  margin: 0 0 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.portfolio-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+}
+
+.portfolio-project-links a {
+  color: var(--md-primary-fg-color);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.portfolio-project-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-project {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .portfolio-project-icon {
+    justify-content: flex-start;
+  }
+
+  .portfolio-project-links {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+}
