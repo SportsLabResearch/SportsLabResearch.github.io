@@ -1,49 +1,52 @@
 ﻿# Research Software Portfolio
 
-SportsLabResearch develops open, reproducible and scientifically validated software.
+Open, reproducible and scientifically validated software developed by **SportsLabResearch**.
 
----
+<div class="grid cards" markdown>
 
-## SportsLabResearch Rugby 7 Referee Spatial Analysis
+-   :material-rugby: **Rugby 7 Referee Spatial Analysis**
 
-GNSS-based spatial and locomotor analysis of Rugby Sevens referees.
+    GNSS-based spatial and locomotor analysis of Rugby Sevens referees.
 
-[Repository](https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis){ .md-button }
-[Documentation](https://sportslabresearch.github.io/SportsLabResearch-rugby7-referee-spatial-analysis/){ .md-button }
-[Zenodo DOI](https://zenodo.org/records/21426713){ .md-button }
+    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis){ .md-button }
 
----
+    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-rugby7-referee-spatial-analysis/){ .md-button }
 
-## SportsLabResearch BloodPressure Analyzer
+    [:material-database: DOI](https://zenodo.org/records/21426713){ .md-button }
 
-Scientific software for automated blood-pressure analysis.
+-   :material-heart-pulse: **BloodPressure Analyzer**
 
-[Repository](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
-[Release](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer/releases/tag/v1.0.0){ .md-button }
-[Documentation](https://sportslabresearch.github.io/SportsLabResearch-BloodPressure-Analyzer/){ .md-button }
-[Zenodo DOI](https://zenodo.org/records/21273738){ .md-button }
+    Scientific software for automated blood-pressure analysis.
 
----
+    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
 
-## SportsLabResearch WIMU DataExtractor
+    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-BloodPressure-Analyzer/){ .md-button }
 
-Automated extraction and preprocessing of WIMU datasets.
+    [:material-tag: Releases](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer/releases){ .md-button }
 
-[Repository](https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor){ .md-button }
-[Documentation](https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/){ .md-button }
-[Zenodo DOI](https://zenodo.org/records/21344653){ .md-button }
+    [:material-database: DOI](https://zenodo.org/records/21273738){ .md-button }
 
----
+-   :material-access-point: **WIMU DataExtractor**
 
-## HRV Longitudinal Analyzer
+    Automated extraction and preprocessing of WIMU datasets.
 
-Longitudinal analysis of heart-rate variability.
+    [:material-github: Repository](https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor){ .md-button }
 
-[Repository](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer){ .md-button }
-[Releases](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer/releases){ .md-button }
-[Documentation](https://sportslabresearch.github.io/HRV-Longitudinal-Analyzer/){ .md-button }
+    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/){ .md-button }
 
----
+    [:material-database: DOI](https://zenodo.org/records/21344653){ .md-button }
+
+-   :material-heart: **HRV Longitudinal Analyzer**
+
+    Longitudinal analysis of heart-rate variability.
+
+    [:material-github: Repository](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer){ .md-button }
+
+    [:material-book-open-page-variant: Documentation](https://sportslabresearch.github.io/HRV-Longitudinal-Analyzer/){ .md-button }
+
+    [:material-tag: Releases](https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer/releases){ .md-button }
+
+</div>
 
 ## Common Framework
 
