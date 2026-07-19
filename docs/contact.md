@@ -1,77 +1,61 @@
 ﻿# Contact
 
-## Prof. José Pino Ortega
+SportsLabResearch welcomes collaborations with researchers, universities, research centres, sports organisations, healthcare institutions and technology companies.
 
-**Principal Investigator**  
-SportsLabResearch
+---
 
-Faculty of Sport Sciences  
+## Scientific Collaboration
+
+Contact SportsLabResearch for:
+
+- Research projects
+- Scientific software development
+- Technology validation
+- Data analysis
+- Educational activities
+- International collaborations
+
+---
+
+## Contact Person
+
+**José Pino-Ortega**
+
+Professor and researcher in sport sciences, wearable technology, physiological monitoring and scientific software.
+
+---
+
+## Email
+
+[pepepinoortega@gmail.com](mailto:pepepinoortega@gmail.com)
+
+---
+
+## GitHub
+
+[SportsLabResearch on GitHub](https://github.com/SportsLabResearch)
+
+---
+
+## Website
+
+[SportsLabResearch official website](https://sportslabresearch.github.io/)
+
+---
+
+## Institutional Profile
+
 University of Murcia  
-Murcia, Spain
+Faculty of Sport Sciences
 
 ---
 
-## Contact Information
+## Collaboration Proposal
 
-**Institutional Email**
+When contacting SportsLabResearch, please include:
 
-josepinoortega@um.es
-
-**Personal Email**
-
-pepepinoortega@gmail.com
-
-**Website**
-
-https://sportslabresearch.org
-
-**GitHub**
-
-https://github.com/SportsLabResearch
-
----
-
-## Research Profiles
-
-**ORCID**
-
-https://orcid.org/0000-0002-9091-0897
-
-**Google Scholar**
-
-https://scholar.google.com/citations?user=2f0o2JQAAAAJ
-
-**ResearchGate**
-
-https://www.researchgate.net/profile/Jose-Pino-Ortega-2
-
-**Scopus Author ID**
-
-https://www.scopus.com/authid/detail.uri?authorId=57212882611
-
-**ResearcherID**
-
-https://www.webofscience.com/wos/author/record/M-7581-2017
-
----
-
-## Research Interests
-
-- Sport Science
-- Human Performance
-- Heart Rate Variability
-- Blood Pressure Analysis
-- GNSS and Wearable Technologies
-- Artificial Intelligence
-- Research Software
-- Open Science
-- FAIR Principles
-
----
-
-Questions, scientific collaborations and institutional partnerships are welcome.
-
-
-
-
-
+- Name and institution
+- Scientific area
+- Objective of the collaboration
+- Product or research line of interest
+- Expected type of participation
