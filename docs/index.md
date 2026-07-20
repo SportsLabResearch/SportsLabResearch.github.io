@@ -1,103 +1,55 @@
-﻿---
+---
 hide:
-  - navigation
   - toc
 ---
 
-<div class="hero" markdown>
+# BreastCancer Wellbeing Analyzer
 
-## Open Scientific Software for Sport and Health Sciences
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer)
+[![Release](https://img.shields.io/github/v/release/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer)](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/releases)
+[![Zenodo](https://img.shields.io/badge/Zenodo-DOI-1682D4?logo=zenodo)](https://zenodo.org/search?q=SportsLabResearch-BreastCancer-Wellbeing-Analyzer)
 
-Transforming scientific knowledge into reproducible software, validated methodologies and practical tools for research, education and professional practice.
+Scientific software for importing, organizing and analysing longitudinal wellbeing data in women with breast cancer.
 
-[Explore Products](products.md){ .md-button .md-button--primary }
-[Research](research.md){ .md-button }
-[Publications](publications.md){ .md-button }
+<div class="hero-actions" markdown>
+[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer){ .md-button .md-button--primary }
+[Documentation](https://sportslabresearch.github.io/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/){ .md-button }
+[Zenodo](https://zenodo.org/search?q=SportsLabResearch-BreastCancer-Wellbeing-Analyzer){ .md-button }
+</div>
 
-**Research collaboration:**  
-[pepepinoortega@gmail.com](mailto:pepepinoortega@gmail.com)
+## Main features
+
+<div class="grid cards" markdown>
+
+-   **Questionnaire data**
+
+    Reads local Excel, CSV and TXT exports produced from Google Forms or synchronized through Google Drive.
+
+-   **Quality control**
+
+    Organizes records, cleans column names and excludes invalid or duplicated output files.
+
+-   **Wellbeing analysis**
+
+    Supports longitudinal analysis of wellbeing indicators collected by the project questionnaire.
+
+-   **Scientific outputs**
+
+    Provides a reproducible basis for Excel and Word reports, tables and figures.
 
 </div>
 
-## Research → Software → Validation → Impact
+## Workflow
 
-SportsLabResearch connects scientific research with functional software, documentation, validation, publication and knowledge transfer.
+```mermaid
+flowchart LR
+    A[Google Forms] --> B[Excel / CSV export]
+    B --> C[Automatic source detection]
+    C --> D[Data cleaning]
+    D --> E[Wellbeing analysis]
+    E --> F[Excel and Word reports]
+```
 
----
+## Scope
 
-## Featured Product
-
-<div class="featured-product" markdown>
-
-### SportsLabResearch-WIMU-DataExtractor
-
-Scientific software for extracting, processing and validating WIMU® data.
-
-It supports automated file processing, comparison with SPRO and the generation of Excel and Word reports.
-
-**Version:** v1.0.2  
-**DOI:** 10.5281/zenodo.21344653
-
-[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor){ .md-button .md-button--primary }
-[Documentation](https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/){ .md-button }
-[Zenodo](https://zenodo.org/records/21344653){ .md-button }
-
-</div>
-
----
-
-## Scientific Products
-
-### BloodPressure Analyzer
-
-Blood-pressure classification, longitudinal monitoring and automated clinical reporting.
-
-[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
-
----
-
-### HRV Longitudinal Analyzer
-
-Longitudinal analysis of heart-rate variability for research, monitoring and education.
-
-[GitHub](https://github.com/ppo1968/HRV-Longitudinal-Analyzer){ .md-button }
-
----
-
-### BreastCancer Wellbeing Analyzer
-
-Analysis of wellbeing, sleep, fatigue, stress, pain and health variables in women with breast cancer.
-
-[Research](research.md){ .md-button }
-
----
-
-### FIFA World Cup 2026 Analyzer
-
-Analysis of players, national teams, matches and performance indicators.
-
-[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-Analytics-FIFA-WorldCup-2026-Analyzer){ .md-button }
-
----
-
-## Research Areas
-
-- Sport performance analysis
-- Wearable technology
-- Physiological monitoring
-- Exercise and health
-- Artificial intelligence
-- Scientific data analysis
-
----
-
-## Collaborate with SportsLabResearch
-
-Research projects · Scientific software · Technology validation · Data analysis · Education
-
-**José Pino-Ortega**  
-Faculty of Sport Sciences · University of Murcia
-
-[Contact](contact.md){ .md-button .md-button--primary }
-[Scientific Services](services.md){ .md-button }
-
+The software is intended for research and monitoring workflows. It does not replace clinical assessment, diagnosis or medical decision-making.

@@ -1,18 +1,21 @@
 from __future__ import annotations
 
+import json
 from datetime import datetime, timezone
 from pathlib import Path
+
 import requests
 
-from config import REQUEST_TIMEOUT, ZENODO_API, ZENODO_OUTPUT, ZENODO_QUERY
+from config import REQUEST_TIMEOUT, ZENODO_API, ZENODO_DATA, ZENODO_QUERY
 
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "SportsLabResearch-Website-Updater/1.0",
+    "User-Agent": "SportsLabResearch-Website-Updater/2.0",
 }
 
+
 def get_records() -> list[dict]:
-    r = requests.get(
+    response = requests.get(
         ZENODO_API,
         params={
             "q": ZENODO_QUERY,
@@ -23,61 +26,65 @@ def get_records() -> list[dict]:
         headers=HEADERS,
         timeout=REQUEST_TIMEOUT,
     )
-    r.raise_for_status()
-    return r.json().get("hits", {}).get("hits", [])
 
-def fmt_date(value: str | None) -> str:
-    if not value:
-        return "—"
-    try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00")).strftime("%d/%m/%Y")
-    except ValueError:
-        return value
+    response.raise_for_status()
 
-def creators(metadata: dict) -> str:
-    names = [c.get("name", "").strip() for c in metadata.get("creators", [])]
-    return ", ".join(n for n in names if n) or "—"
+    data = response.json()
+    return data.get("hits", {}).get("hits", [])
 
-def build_markdown(records: list[dict]) -> str:
-    updated = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
-    lines = [
-        "---", "hide:", "  - toc", "---", "",
-        "# Zenodo", "",
-        "Records synchronized automatically from Zenodo.", "",
-        f"**Last automatic update:** {updated}", "", "---", ""
-    ]
-
-    if not records:
-        lines += ["_No SportsLabResearch records were found with the configured query._", ""]
-
-    for record in records:
-        md = record.get("metadata") or {}
-        title = md.get("title") or f"Zenodo record {record.get('id', '')}"
-        doi = md.get("doi") or record.get("doi") or "—"
-        version = md.get("version") or "—"
-        url = record.get("links", {}).get("html") or f"https://zenodo.org/records/{record.get('id')}"
-
-        lines += [
-            f"## {title}", "",
-            f"- **Creators:** {creators(md)}",
-            f"- **Publication date:** {fmt_date(md.get('publication_date'))}",
-            f"- **Version:** {version}",
-            f"- **DOI:** {doi}",
-            f"- **Record:** [{url}]({url})",
-            "", "---", ""
-        ]
-
-    lines += ["> This page is generated automatically from the Zenodo Records API.", ""]
-    return "\n".join(lines)
 
 def main() -> int:
-    records = get_records()
-    out = Path(ZENODO_OUTPUT)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(build_markdown(records), encoding="utf-8")
+    records: list[dict] = []
+
+    try:
+        zenodo_records = get_records()
+    except requests.RequestException as error:
+        print(f"ERROR Zenodo: {error}")
+        return 1
+
+    for record in zenodo_records:
+        metadata = record.get("metadata") or {}
+        links = record.get("links") or {}
+
+        record_id = record.get("id")
+
+        records.append(
+            {
+                "id": record_id,
+                "title": metadata.get("title") or "",
+                "description": metadata.get("description") or "",
+                "doi": metadata.get("doi") or record.get("doi") or "",
+                "version": metadata.get("version") or "",
+                "publication_date": metadata.get("publication_date") or "",
+                "record_url": links.get("html")
+                or f"https://zenodo.org/records/{record_id}",
+                "creators": [
+                    creator.get("name", "")
+                    for creator in metadata.get("creators", [])
+                    if creator.get("name")
+                ],
+            }
+        )
+
+    payload = {
+        "source": "https://zenodo.org/",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "records": records,
+    }
+
+    output = Path(ZENODO_DATA)
+    output.parent.mkdir(parents=True, exist_ok=True)
+
+    output.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     print(f"Zenodo actualizado: {len(records)} registros")
-    print(f"Archivo generado: {out}")
+    print(f"Datos guardados: {output}")
+
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,39 +1,46 @@
-﻿site_name: SportsLabResearch
-site_description: Open Scientific Software for Sport and Health Sciences
-site_url: https://sportslabresearch.github.io/
+site_name: BreastCancer Wellbeing Analyzer
+site_description: Scientific documentation for SportsLabResearch-BreastCancer-Wellbeing-Analyzer
+site_author: José Pino Ortega · SportsLabResearch
+site_url: https://sportslabresearch.github.io/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/
 
-repo_name: SportsLabResearch
-repo_url: https://github.com/SportsLabResearch
+repo_url: https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer
+repo_name: SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer
+edit_uri: ""
+
+copyright: Copyright © 2026 SportsLabResearch
 
 theme:
   name: material
-  logo: assets/images/logo-header.png
-  favicon: assets/images/logo-header.png
   language: en
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - search.suggest
     - search.highlight
-    - search.share
     - content.code.copy
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
 nav:
   - Home: index.md
-  - Organization: organization.md
-  - Products: products.md
-  - Software: software.md
-  - Research: research.md
-  - Publications: publications.md
-  - Zenodo: zenodo.md
-  - Documentation: documentation.md
-  - Education: education.md
-  - Services: services.md
-  - News: news.md
-  - Contact: contact.md
-
-plugins:
-  - search
+  - Installation: installation.md
+  - Quick Start: quick-start.md
+  - User Guide: user-guide.md
+  - Variables: variables.md
+  - Reports: reports.md
+  - Citation: citation.md
 
 markdown_extensions:
   - admonition
@@ -48,13 +55,4 @@ markdown_extensions:
       alternate_style: true
 
 extra_css:
-  - stylesheets/extra.css
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/SportsLabResearch
-    - icon: fontawesome/solid/globe
-      link: https://sportslabresearch.github.io/
-
-copyright: © 2026 SportsLabResearch
+  - assets/stylesheets/extra.css

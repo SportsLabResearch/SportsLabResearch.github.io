@@ -1,78 +1,52 @@
-﻿# Research
+# Research
 
-SportsLabResearch promotes reproducible research through the development of scientific software, methodological frameworks and open resources for sport and health sciences.
-
----
-
-# Research Lines
-
-Our current research focuses on the following areas:
-
-- Sport Performance Analysis
-- Exercise and Health
-- Wearable Technologies
-- Heart Rate Variability
-- Blood Pressure Monitoring
-- Artificial Intelligence
-- Data Science
-- Performance Monitoring
-- Women's Health
-- Breast Cancer Exercise
+SportsLabResearch connects scientific questions with reproducible software, validated methods and practical applications.
 
 ---
 
-# Scientific Frameworks
+## Wearable Technology and Validation
 
-SportsLabResearch develops conceptual and methodological frameworks that support scientific software and research projects.
+Extraction, synchronization and validation of data from inertial sensors, positioning systems and physiological devices.
 
-Current frameworks include:
+**Related products:** WIMU DataExtractor and validation tools.
+
+## Physiological Monitoring
+
+Longitudinal analysis of heart-rate variability, blood pressure, recovery and individual physiological responses.
+
+**Related products:** HRV Longitudinal Analyzer and BloodPressure Analyzer.
+
+## Exercise and Health
+
+Monitoring of wellbeing, fatigue, stress, pain and physical responses in health and clinical populations, including women with breast cancer.
+
+**Related product:** BreastCancer Wellbeing Analyzer.
+
+## Sport Performance Analysis
+
+Analysis of competition, external load, technical-tactical behaviour and performance indicators in team sports.
+
+**Related products:** FIFA World Cup analyzers and sport-specific research tools.
+
+## Artificial Intelligence and Data Science
+
+Automated processing, interpretable models, reproducible analysis and scientific reporting applied to sport and health data.
+
+---
+
+## Scientific Frameworks
 
 - Intelligent Football Performance Ecosystem (IFPE)
 - Reproducible Scientific Software
 - Wearable Data Validation
 
----
+## Research Workflow
 
-# Research Projects
+**Research question → Data → Software → Validation → Publication → Knowledge transfer**
 
-Examples of ongoing projects:
+## Collaboration
 
-- WIMU Data Extraction
-- Blood Pressure Analysis
-- HRV Longitudinal Monitoring
-- Breast Cancer Wellbeing
-- FIFA World Cup Analytics
+SportsLabResearch collaborates with universities, research centres, healthcare institutions, sports organisations and technology companies.
 
----
-
-# Scientific Protocols
-
-Protocols are developed to ensure standardised and reproducible data collection and analysis.
-
-Examples include:
-
-- HRV Baseline Assessment
-- Blood Pressure Assessment
-- Exercise Monitoring
-- Wearable Device Validation
-
----
-
-# Datasets
-
-SportsLabResearch promotes open and reusable scientific datasets whenever possible.
-
-Datasets include:
-
-- Physiological monitoring
-- Wearable technology
-- Team sports
-- Exercise and health
-- Competition analysis
-
----
-
-# Collaboration
-
-We actively collaborate with universities, research centres and professionals interested in open scientific software and reproducible research.
-
+[Contact](contact.md){ .md-button .md-button--primary }
+[Scientific Services](services.md){ .md-button }
