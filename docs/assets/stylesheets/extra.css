@@ -1,5 +1,48 @@
-.md-header { box-shadow: 0 1px 0 rgba(255,255,255,.08); }
-.md-main__inner { max-width: 78rem; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: .65rem; margin: 1.3rem 0 2rem; }
-.grid.cards > ul > li, .grid.cards > ol > li { border-radius: 14px; }
-.md-button { border-radius: 8px; }
+.md-header {
+  box-shadow: 0 1px 0 rgba(255,255,255,.08);
+}
+
+.md-main__inner {
+  max-width: 78rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin: 1.3rem 0 2rem;
+}
+
+.grid.cards > ul > li,
+.grid.cards > ol > li {
+  border-radius: 14px;
+}
+
+.md-button {
+  border-radius: 8px;
+}
+
+/* ===== Readability improvements ===== */
+
+.md-typeset,
+.md-typeset p,
+.md-typeset li {
+  color: #1f2937;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: #0d3e86;
+}
+
+.md-sidebar .md-nav__link,
+.md-nav--secondary .md-nav__title,
+.md-nav--secondary .md-nav__link {
+  color: #334155;
+}
+
+.md-typeset a {
+  color: #0d6efd;
+}
