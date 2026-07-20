@@ -10,44 +10,28 @@ from config import REQUEST_TIMEOUT, ZENODO_API, ZENODO_DATA, ZENODO_QUERY
 
 HEADERS = {
     "Accept": "application/json",
-    "User-Agent": "SportsLabResearch-Website-Updater/2.0",
+    "User-Agent": "SportsLabResearch-Website-Updater/3.0",
 }
 
 
 def get_records() -> list[dict]:
     response = requests.get(
         ZENODO_API,
-        params={
-            "q": ZENODO_QUERY,
-            "sort": "mostrecent",
-            "size": 25,
-            "all_versions": "false",
-        },
+        params={"q": ZENODO_QUERY, "sort": "mostrecent", "size": 25},
         headers=HEADERS,
         timeout=REQUEST_TIMEOUT,
     )
-
     response.raise_for_status()
-
-    data = response.json()
-    return data.get("hits", {}).get("hits", [])
+    return response.json().get("hits", {}).get("hits", [])
 
 
 def main() -> int:
     records: list[dict] = []
 
-    try:
-        zenodo_records = get_records()
-    except requests.RequestException as error:
-        print(f"ERROR Zenodo: {error}")
-        return 1
-
-    for record in zenodo_records:
+    for record in get_records():
         metadata = record.get("metadata") or {}
         links = record.get("links") or {}
-
         record_id = record.get("id")
-
         records.append(
             {
                 "id": record_id,
@@ -66,23 +50,21 @@ def main() -> int:
             }
         )
 
-    payload = {
-        "source": "https://zenodo.org/",
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "records": records,
-    }
-
     output = Path(ZENODO_DATA)
     output.parent.mkdir(parents=True, exist_ok=True)
-
     output.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
+        json.dumps(
+            {
+                "source": "https://zenodo.org/",
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "records": records,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
         encoding="utf-8",
     )
-
     print(f"Zenodo actualizado: {len(records)} registros")
-    print(f"Datos guardados: {output}")
-
     return 0
 
 

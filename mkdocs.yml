@@ -1,17 +1,17 @@
-site_name: BreastCancer Wellbeing Analyzer
-site_description: Scientific documentation for SportsLabResearch-BreastCancer-Wellbeing-Analyzer
+site_name: SportsLabResearch
+site_description: Open scientific software, reproducible research and technological solutions for sport and health sciences
 site_author: José Pino Ortega · SportsLabResearch
-site_url: https://sportslabresearch.github.io/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/
-
-repo_url: https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer
-repo_name: SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer
+site_url: https://sportslabresearch.github.io/
+repo_url: https://github.com/SportsLabResearch/SportsLabResearch.github.io
+repo_name: SportsLabResearch/SportsLabResearch.github.io
 edit_uri: ""
-
 copyright: Copyright © 2026 SportsLabResearch
 
 theme:
   name: material
   language: en
+  logo: assets/sportslabresearch-header-logo.png
+  favicon: assets/sportslabresearch-favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -21,13 +21,13 @@ theme:
     - content.code.copy
   palette:
     - scheme: slate
-      primary: indigo
+      primary: blue grey
       accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: default
-      primary: indigo
+      primary: blue grey
       accent: cyan
       toggle:
         icon: material/weather-night
@@ -35,12 +35,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Installation: installation.md
-  - Quick Start: quick-start.md
-  - User Guide: user-guide.md
-  - Variables: variables.md
-  - Reports: reports.md
-  - Citation: citation.md
+  - Organization: organization.md
+  - Products: products.md
+  - Research: research.md
+  - Publications: publications.md
+  - Documentation: documentation.md
+  - Education: education.md
+  - Services: services.md
+  - News: news.md
+  - Contact: contact.md
 
 markdown_extensions:
   - admonition
@@ -55,4 +58,4 @@ markdown_extensions:
       alternate_style: true
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - stylesheets/extra.css

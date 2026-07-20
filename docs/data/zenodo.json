@@ -1,7 +1,19 @@
 {
   "source": "https://zenodo.org/",
-  "updated_at": "2026-07-20T15:49:10.988279+00:00",
+  "updated_at": "2026-07-20T19:43:44.853179+00:00",
   "records": [
+    {
+      "id": 21459319,
+      "title": "SportsLabResearch-BreastCancer-Wellbeing-Analyzer",
+      "description": "Scientific software for the multidimensional assessment and longitudinal monitoring of wellbeing and health-related outcomes in women with breast cancer. The modular architecture integrates subjective questionnaires, physiological measurements, longitudinal analyses and automated reporting, and can be adapted to other clinical populations.",
+      "doi": "10.5281/zenodo.21459319",
+      "version": "v0.1.0",
+      "publication_date": "2026-07-20",
+      "record_url": "https://zenodo.org/records/21459319",
+      "creators": [
+        "Pino-Ortega, José"
+      ]
+    },
     {
       "id": 21451657,
       "title": "SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer",
@@ -32,7 +44,7 @@
     },
     {
       "id": 21426713,
-      "title": "SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis: v1.0.0",
+      "title": "SportsLabResearch-rugby7-referee-spatial-analysis: v1.0.0",
       "description": "Open-source software for the spatial analysis of Rugby Sevens referees using GNSS data.",
       "doi": "10.5281/zenodo.21426713",
       "version": "v1.0.0",

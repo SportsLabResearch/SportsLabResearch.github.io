@@ -1,17 +1,42 @@
-﻿:root {
-  --slr-primary: #123f5a;
-  --slr-secondary: #087f8c;
-  --slr-accent: #17a398;
+:root {
+  --slr-primary: #083e7a;
+  --slr-secondary: #0b76d1;
+  --slr-accent: #12c7dc;
   --slr-light: #f3f8fa;
-  --slr-dark: #102a3a;
+  --slr-dark: #020817;
 }
 
 .md-header {
-  background: linear-gradient(90deg, var(--slr-dark), var(--slr-primary));
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #020817 16%,
+    #062b5c 52%,
+    #0b76d1 82%,
+    #12c7dc 100%
+  );
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.10);
 }
 
 .md-tabs {
-  background-color: var(--slr-primary);
+  background: linear-gradient(
+    90deg,
+    #020817 0%,
+    #062b5c 58%,
+    #0b76d1 100%
+  );
+}
+
+.md-header__button.md-logo {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  width: auto;
+  height: 2.65rem;
+  object-fit: contain;
 }
 
 .md-main {
@@ -277,3 +302,30 @@
   margin-left: 0.35rem;
 }
 
+
+/* Unified product cards */
+.slr-product-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+  margin: 1rem 0;
+}
+.slr-product-actions .md-button {
+  width: 100%;
+  margin: 0;
+  padding: .55rem .35rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.slr-button-disabled {
+  opacity: .38;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.slr-product-meta {
+  padding-top: .35rem;
+  border-top: 1px solid #dce8ed;
+}
+@media screen and (max-width: 620px) {
+  .slr-product-actions { grid-template-columns: 1fr; }
+}

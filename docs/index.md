@@ -3,53 +3,70 @@ hide:
   - toc
 ---
 
-# BreastCancer Wellbeing Analyzer
+<div class="hero" markdown>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer)
-[![Release](https://img.shields.io/github/v/release/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer)](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/releases)
-[![Zenodo](https://img.shields.io/badge/Zenodo-DOI-1682D4?logo=zenodo)](https://zenodo.org/search?q=SportsLabResearch-BreastCancer-Wellbeing-Analyzer)
+## Open science for sport and health
 
-Scientific software for importing, organizing and analysing longitudinal wellbeing data in women with breast cancer.
+SportsLabResearch connects scientific research, reproducible software and technological innovation in a single open platform.
 
-<div class="hero-actions" markdown>
-[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer){ .md-button .md-button--primary }
-[Documentation](https://sportslabresearch.github.io/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/){ .md-button }
-[Zenodo](https://zenodo.org/search?q=SportsLabResearch-BreastCancer-Wellbeing-Analyzer){ .md-button }
+[Explore products](products.md){ .md-button .md-button--primary }
+[Research areas](research.md){ .md-button }
+[Publications](publications.md){ .md-button }
+
 </div>
 
-## Main features
+## One platform, one source of information
 
 <div class="grid cards" markdown>
 
--   **Questionnaire data**
+-   **Scientific software**
 
-    Reads local Excel, CSV and TXT exports produced from Google Forms or synchronized through Google Drive.
+    Open and reproducible tools for data extraction, physiological monitoring, performance analysis and health research.
 
--   **Quality control**
+-   **Integrated project records**
 
-    Organizes records, cleans column names and excludes invalid or duplicated output files.
+    Every product brings together its GitHub repository, documentation, latest release and Zenodo DOI in one place.
 
--   **Wellbeing analysis**
+-   **Research output**
 
-    Supports longitudinal analysis of wellbeing indicators collected by the project questionnaire.
+    Scientific publications are synchronized independently and presented without duplicating software records.
 
--   **Scientific outputs**
+-   **Automatic updates**
 
-    Provides a reproducible basis for Excel and Word reports, tables and figures.
+    The platform refreshes its information from GitHub, Zenodo and the University of Murcia research profile.
 
 </div>
 
 ## Workflow
 
-```mermaid
-flowchart LR
-    A[Google Forms] --> B[Excel / CSV export]
-    B --> C[Automatic source detection]
-    C --> D[Data cleaning]
-    D --> E[Wellbeing analysis]
-    E --> F[Excel and Word reports]
-```
+<div class="featured-product" markdown>
 
-## Scope
+### From development to scientific dissemination
 
-The software is intended for research and monitoring workflows. It does not replace clinical assessment, diagnosis or medical decision-making.
+A new GitHub release, MkDocs documentation update or Zenodo record is automatically incorporated into the corresponding product card.
+
+[View unified products](products.md){ .md-button .md-button--primary }
+
+</div>
+
+## Research areas
+
+<div class="grid cards" markdown>
+
+-   **Wearable technology and validation**
+
+    Extraction, synchronization and validation of inertial, positioning and physiological data.
+
+-   **Physiological monitoring**
+
+    Longitudinal analysis of heart-rate variability, blood pressure, recovery and individual responses.
+
+-   **Exercise and health**
+
+    Scientific tools for exercise oncology, wellbeing monitoring and health-related research.
+
+-   **Performance analysis**
+
+    Applied analytics for football, rugby, refereeing and team-sport performance.
+
+</div>
