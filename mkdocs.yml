@@ -22,8 +22,10 @@ nav:
   - Home: index.md
   - Organization: organization.md
   - Products: products.md
+  - Software: software.md
   - Research: research.md
   - Publications: publications.md
+  - Zenodo: zenodo.md
   - Documentation: documentation.md
   - Education: education.md
   - Services: services.md
@@ -56,4 +58,3 @@ extra:
       link: https://sportslabresearch.github.io/
 
 copyright: © 2026 SportsLabResearch
-

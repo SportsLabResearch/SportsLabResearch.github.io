@@ -6,54 +6,22 @@ hide:
 
 <div class="hero" markdown>
 
-# SportsLabResearch
-
 ## Open Scientific Software for Sport and Health Sciences
 
-Transforming scientific knowledge into reproducible software, validated methodologies and practical tools for sport and health sciences.
+Transforming scientific knowledge into reproducible software, validated methodologies and practical tools for research, education and professional practice.
 
 [Explore Products](products.md){ .md-button .md-button--primary }
 [Research](research.md){ .md-button }
 [Publications](publications.md){ .md-button }
 
-<div class="slr-hero-contact">
-<strong>Research collaboration:</strong>
-<a href="mailto:pepepinoortega@gmail.com">pepepinoortega@gmail.com</a>
-&nbsp;·&nbsp;
-<a href="contact.md">Contact</a>
-</div>
+**Research collaboration:**  
+[pepepinoortega@gmail.com](mailto:pepepinoortega@gmail.com)
 
 </div>
 
-<div class="slr-stats">
+## Research → Software → Validation → Impact
 
-<div class="slr-stat">
-<span class="slr-stat-number">5</span>
-<span class="slr-stat-label">Scientific Products</span>
-</div>
-
-<div class="slr-stat">
-<span class="slr-stat-number">4</span>
-<span class="slr-stat-label">Research Areas</span>
-</div>
-
-<div class="slr-stat">
-<span class="slr-stat-number">3</span>
-<span class="slr-stat-label">Published Platforms</span>
-</div>
-
-<div class="slr-stat">
-<span class="slr-stat-number">1</span>
-<span class="slr-stat-label">Open Ecosystem</span>
-</div>
-
-</div>
-
----
-
-## Research · Software · Validation · Impact
-
-SportsLabResearch integrates scientific research, software development, validation, documentation and knowledge transfer within a common open and reproducible ecosystem.
+SportsLabResearch connects scientific research with functional software, documentation, validation, publication and knowledge transfer.
 
 ---
 
@@ -63,7 +31,9 @@ SportsLabResearch integrates scientific research, software development, validati
 
 ### SportsLabResearch-WIMU-DataExtractor
 
-Scientific software for extracting, processing and validating WIMU® data. It supports automated extraction, comparison with SPRO and the generation of Excel and Word reports.
+Scientific software for extracting, processing and validating WIMU® data.
+
+It supports automated file processing, comparison with SPRO and the generation of Excel and Word reports.
 
 **Version:** v1.0.2  
 **DOI:** 10.5281/zenodo.21344653
@@ -80,25 +50,25 @@ Scientific software for extracting, processing and validating WIMU® data. It su
 
 ### BloodPressure Analyzer
 
-Blood pressure classification, longitudinal monitoring and automated clinical reporting.
+Blood-pressure classification, longitudinal monitoring and automated clinical reporting.
 
-[View product](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
+[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer){ .md-button }
 
 ---
 
 ### HRV Longitudinal Analyzer
 
-Longitudinal heart rate variability analysis for research, monitoring and teaching.
+Longitudinal analysis of heart-rate variability for research, monitoring and education.
 
-[View product](https://github.com/ppo1968/HRV-Longitudinal-Analyzer){ .md-button }
+[GitHub](https://github.com/ppo1968/HRV-Longitudinal-Analyzer){ .md-button }
 
 ---
 
 ### BreastCancer Wellbeing Analyzer
 
-Monitoring of wellbeing, sleep, fatigue, stress, pain and health variables in women with breast cancer.
+Analysis of wellbeing, sleep, fatigue, stress, pain and health variables in women with breast cancer.
 
-[Research area](research.md){ .md-button }
+[Research](research.md){ .md-button }
 
 ---
 
@@ -106,46 +76,28 @@ Monitoring of wellbeing, sleep, fatigue, stress, pain and health variables in wo
 
 Analysis of players, national teams, matches and performance indicators.
 
-[View product](https://github.com/SportsLabResearch/SportsLabResearch-Analytics-FIFA-WorldCup-2026-Analyzer){ .md-button }
+[GitHub](https://github.com/SportsLabResearch/SportsLabResearch-Analytics-FIFA-WorldCup-2026-Analyzer){ .md-button }
 
 ---
 
-## Scientific Leadership
+## Research Areas
 
-**José Pino-Ortega**
-
-Professor and researcher at the Faculty of Sport Sciences, University of Murcia.
-
-Scientific experience in wearable technology, physiological monitoring, sports performance, exercise and health, data analysis and scientific software development.
-
-[Organization](organization.md){ .md-button }
-[Publications](publications.md){ .md-button }
-
-<div class="slr-hero-contact">
-<strong>Research collaboration:</strong>
-<a href="mailto:pepepinoortega@gmail.com">pepepinoortega@gmail.com</a>
-&nbsp;·&nbsp;
-<a href="contact.md">Contact</a>
-</div>
+- Sport performance analysis
+- Wearable technology
+- Physiological monitoring
+- Exercise and health
+- Artificial intelligence
+- Scientific data analysis
 
 ---
 
-<div class="slr-collaboration" markdown>
----
+## Collaborate with SportsLabResearch
 
-<div class="slr-collaboration">
+Research projects · Scientific software · Technology validation · Data analysis · Education
 
-<h2>Collaborate with SportsLabResearch</h2>
+**José Pino-Ortega**  
+Faculty of Sport Sciences · University of Murcia
 
-<p>Research projects · Scientific software · Technology validation · Data analysis · Education</p>
-
-<div class="slr-contact-row">
-  <strong id="slr-email">pepepinoortega@gmail.com</strong>
-  <button class="md-button md-button--primary" onclick="navigator.clipboard.writeText('pepepinoortega@gmail.com'); this.innerText='Email copied';">
-    Copy email
-  </button>
-  <a class="md-button" href="contact/">Contact page</a>
-</div>
-
-</div>
+[Contact](contact.md){ .md-button .md-button--primary }
+[Scientific Services](services.md){ .md-button }
 
