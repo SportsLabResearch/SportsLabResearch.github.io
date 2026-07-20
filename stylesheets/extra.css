@@ -329,3 +329,33 @@
 @media screen and (max-width: 620px) {
   .slr-product-actions { grid-template-columns: 1fr; }
 }
+
+/* FIX: restore readable content text */
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: #263238;
+  --md-default-fg-color--light: #455a64;
+  --md-default-fg-color--lighter: #607d8b;
+}
+
+[data-md-color-scheme="default"] .md-content,
+[data-md-color-scheme="default"] .md-content p,
+[data-md-color-scheme="default"] .md-content li,
+[data-md-color-scheme="default"] .md-content td,
+[data-md-color-scheme="default"] .md-content th,
+[data-md-color-scheme="default"] .md-typeset {
+  color: #263238 !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+[data-md-color-scheme="slate"] .md-content,
+[data-md-color-scheme="slate"] .md-content p,
+[data-md-color-scheme="slate"] .md-content li,
+[data-md-color-scheme="slate"] .md-content td,
+[data-md-color-scheme="slate"] .md-content th,
+[data-md-color-scheme="slate"] .md-typeset {
+  color: #e6edf3 !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
