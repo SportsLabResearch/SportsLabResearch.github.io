@@ -1,0 +1,71 @@
+/* SportsLabResearch readability fix */
+
+.md-header {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.md-main__inner {
+  max-width: 78rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.3rem 0 2rem;
+}
+
+.grid.cards > ul > li,
+.grid.cards > ol > li {
+  border-radius: 14px;
+}
+
+.md-button {
+  border-radius: 8px;
+}
+
+/* Force readable colors on internal pages */
+[data-md-color-scheme="default"] .md-content,
+[data-md-color-scheme="default"] .md-content__inner,
+[data-md-color-scheme="default"] .md-typeset {
+  color: #1f2937 !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset p,
+[data-md-color-scheme="default"] .md-typeset li,
+[data-md-color-scheme="default"] .md-typeset strong,
+[data-md-color-scheme="default"] .md-typeset em {
+  color: #1f2937 !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4 {
+  color: #0f3554 !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="default"] .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title,
+[data-md-color-scheme="default"] .md-sidebar {
+  color: #334155 !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset a {
+  color: #2563eb !important;
+  opacity: 1 !important;
+}
+
+/* Remove accidental faded-content rules */
+.md-content *,
+.md-sidebar * {
+  filter: none !important;
+}
+
+.md-typeset,
+.md-typeset * {
+  text-shadow: none !important;
+}

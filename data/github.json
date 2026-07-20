@@ -1,0 +1,102 @@
+{
+  "source": "https://github.com/SportsLabResearch",
+  "updated_at": "2026-07-20T19:43:43.891346+00:00",
+  "repositories": [
+    {
+      "name": "SportsLabResearch-WIMU-DataExtractor",
+      "description": "Open-source extractor for WIMU .QUL and .QUI files with native Excel export.",
+      "repository_url": "https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor",
+      "documentation_url": "https://sportslabresearch.github.io/SportsLabResearch-WIMU-DataExtractor/",
+      "language": "Python",
+      "license": "MIT",
+      "updated_at": "2026-07-14T17:24:32Z",
+      "topics": [],
+      "release": {
+        "tag": "v1.0.2",
+        "name": "SportsLabResearch-WIMU-DataExtractor v1.0.2",
+        "url": "https://github.com/SportsLabResearch/SportsLabResearch-WIMU-DataExtractor/releases/tag/v1.0.2",
+        "published_at": "2026-07-14T16:37:45Z"
+      }
+    },
+    {
+      "name": "SportsLabResearch-BloodPressure-Analyzer",
+      "description": "Open-source research software for resting blood pressure analysis, longitudinal monitoring and automated clinical reporting based on ESH 2023 recommendations.",
+      "repository_url": "https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer",
+      "documentation_url": "https://sportslabresearch.github.io/SportsLabResearch-BloodPressure-Analyzer/",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "updated_at": "2026-07-16T12:20:45Z",
+      "topics": [],
+      "release": {
+        "tag": "v1.0.0",
+        "name": "SportsLabResearch-BloodPressure-Analyzer v1.0.0",
+        "url": "https://github.com/SportsLabResearch/SportsLabResearch-BloodPressure-Analyzer/releases/tag/v1.0.0",
+        "published_at": "2026-07-16T12:08:41Z"
+      }
+    },
+    {
+      "name": "SportsLabResearch-BreastCancer-Wellbeing-Analyzer",
+      "description": "Scientific software for multidimensional assessment and longitudinal monitoring of wellbeing in women with breast cancer. Integrates patient-reported outcomes, blood pressure, SpO₂ and clinical indicators to generate automated dashboards and scientific reports. Adaptable to other clinical populations.",
+      "repository_url": "https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer",
+      "documentation_url": "https://sportslabresearch.github.io/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/",
+      "language": "Python",
+      "license": "MIT",
+      "updated_at": "2026-07-20T17:45:40Z",
+      "topics": [],
+      "release": {
+        "tag": "v0.1.0",
+        "name": "SportsLabResearch-BreastCancer-Wellbeing-Analyzer/releases",
+        "url": "https://github.com/SportsLabResearch/SportsLabResearch-BreastCancer-Wellbeing-Analyzer/releases/tag/v0.1.0",
+        "published_at": "2026-07-20T16:23:12Z"
+      }
+    },
+    {
+      "name": "SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer",
+      "description": "Open-source scientific software for the analysis of external load, internal load and physical fatigue in Rugby Sevens referees.",
+      "repository_url": "https://github.com/SportsLabResearch/SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer",
+      "documentation_url": "https://sportslabresearch.github.io/SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer/",
+      "language": "HTML",
+      "license": "NOASSERTION",
+      "updated_at": "2026-07-20T12:41:53Z",
+      "topics": [],
+      "release": {
+        "tag": "v0.1.0-alpha",
+        "name": "SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer",
+        "url": "https://github.com/SportsLabResearch/SportsLabResearch-Rugby7-Referee-Physical-Fatigue-Analyzer/releases/tag/v0.1.0-alpha",
+        "published_at": "2026-07-20T07:39:13Z"
+      }
+    },
+    {
+      "name": "SportsLabResearch-rugby7-referee-spatial-analysis",
+      "description": "Open-source software for the spatial analysis of Rugby Sevens referees using GNSS data.",
+      "repository_url": "https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis",
+      "documentation_url": "https://sportslabresearch.github.io/SportsLabResearch-rugby7-referee-spatial-analysis/",
+      "language": "Python",
+      "license": "MIT",
+      "updated_at": "2026-07-18T10:38:30Z",
+      "topics": [],
+      "release": {
+        "tag": "v1.0.0",
+        "name": "",
+        "url": "https://github.com/SportsLabResearch/SportsLabResearch-rugby7-referee-spatial-analysis/releases/tag/v1.0.0",
+        "published_at": "2026-07-18T08:46:19Z"
+      }
+    },
+    {
+      "name": "HRV-Longitudinal-Analyzer",
+      "description": "A professional cross-platform application for longitudinal Heart Rate Variability (HRV) analysis, featuring Kubios data import, automated scientific reporting, advanced statistical analysis, participant management, and interactive dashboards for research, sports science, and clinical monitoring.",
+      "repository_url": "https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer",
+      "documentation_url": "https://sportslabresearch.github.io/HRV-Longitudinal-Analyzer/",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "updated_at": "2026-07-10T11:20:28Z",
+      "topics": [],
+      "release": {
+        "tag": "v1.4.7",
+        "name": "HRV-Longitudinal-Analyzer v1.4.7",
+        "url": "https://github.com/SportsLabResearch/HRV-Longitudinal-Analyzer/releases/tag/v1.4.7",
+        "published_at": "2026-07-09T06:29:05Z"
+      }
+    }
+  ]
+}

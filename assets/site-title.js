@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
+﻿document.addEventListener("DOMContentLoaded", () => {
   document.title = document.title.includes("SportsLabResearch")
     ? document.title
-    : `${document.title} · SportsLabResearch`;
+    : `${document.title} Â· SportsLabResearch`;
 });
+
